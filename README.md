@@ -1,18 +1,18 @@
 For Fabric
+Let me guess, you came here because you accidently broke your OP pickaxe with 1253125123 enchantments on it, so you searched google for a mod that would let you fix that.
 
-Minecraft caps your gear's potential, preventing you from making that totally not overpowered Sharpness X sword.
+Well, here you go.
 
-This mod fixes that, so you can waste all of your experience on that sword. Oh, and so you actually have something to do in the deep late-game.
+By the way, the enchantment is labeled as Indestructible ingame to distinguish from Unbreaking.
 
-NOTE: This mod is only hosted on Modrinth and Github. Any other distributions of this mod are untrustworthy, even if the website itself is not malicious. stopmodreposts.com attempts to prevent this.
+NOTE: This mod is only hosted on Modrinth. Any other distributions of this mod are untrustworthy, even if the website itself is not malicious. stopmodreposts.com aims to stop these potentially malware websites.
 
 FAQ
-
 Q: Will you port this to future versions?
-A: Yep. The mod is pretty easy to port, so...
+A: Definitely.
 
 Q: Config?
-A: Yeah, once I get the fundamentals of this mod set up.
+A: Why? If you want the tool to have reduced damage, but not completely invincible, go back to Unbreaking III.
 
 Q: Can I use this in a modpack?
 A: Sure.
