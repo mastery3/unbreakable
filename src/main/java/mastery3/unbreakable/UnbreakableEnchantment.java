@@ -20,7 +20,7 @@ public class UnbreakableEnchantment extends Enchantment {
 	
 	@Override
 	public int getMaxPower(int level) {
-		return 40 * level;
+		return 10000000;
 	}
 	
 	@Override
