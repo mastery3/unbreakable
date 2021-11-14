@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "unbreakable",
+  "version": "${version}",
+
+  "name": "Unbreakable",
+  "description": "Keeping your gear forever (as long as you don't die)/",
+  "authors": [
+    "mastery3"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC 4.0",
+  "icon": "assets/sharpness6/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mastery3.unbreakable.Entry"
+    ]
+  },
+  "mixins": [
+    "unbreakable.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
