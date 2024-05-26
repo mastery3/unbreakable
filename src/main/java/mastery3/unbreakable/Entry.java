@@ -6,8 +6,9 @@ import org.apache.logging.log4j.Logger;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.enchantment.Enchantment;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 public class Entry implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger("sharpness6");
@@ -16,7 +17,7 @@ public class Entry implements ModInitializer {
 		LOGGER.info("Go make that OP weapon :)");
     }
     public static Enchantment UNBREAKABLE = Registry.register(
-            Registry.ENCHANTMENT,
+            Registries.ENCHANTMENT,
             new Identifier("mastery3", "unbreakable"),
             new UnbreakableEnchantment()
     );

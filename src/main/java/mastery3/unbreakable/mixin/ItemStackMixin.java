@@ -18,10 +18,10 @@ import net.minecraft.server.network.ServerPlayerEntity;
 
 @Mixin(ItemStack.class)
 public class ItemStackMixin {
-    @Inject(method="damage(ILjava/util/Random;Lnet/minecraft/server/network/ServerPlayerEntity;)Z", at=@At("HEAD"), cancellable=true)
-    private void inject(CallbackInfoReturnable<Boolean> cir) {
+    @Inject(method="damage", at=@At("HEAD"), cancellable=true)
+    private void inject(int x, net.minecraft.util.math.random.Random random, ServerPlayerEntity entity, Runnable runnable, CallbackInfo cir) {
         if (EnchantmentHelper.getLevel(Entry.UNBREAKABLE, ((ItemStack)(Object)this)) > 0) {
-            cir.setReturnValue(Boolean.valueOf(false));
+            ((CallbackInfoReturnable<Boolean>)cir).setReturnValue(Boolean.valueOf(false));
         }
     }
 }
