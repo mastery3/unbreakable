@@ -1,0 +1,43 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.mastery3.unbreakable"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": {
+            "type": "minecraft:fraction",
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 0
+            },
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 35
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 150,
+    "per_level_above_first": 50
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}
+

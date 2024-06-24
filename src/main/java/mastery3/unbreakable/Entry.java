@@ -11,14 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class Entry implements ModInitializer {
-	public static final Logger LOGGER = LogManager.getLogger("sharpness6");
+	public static final Logger LOGGER = LogManager.getLogger("unbreakable");
 
-    public void onInitialize() {
-		LOGGER.info("Go make that OP weapon :)");
-    }
-    public static Enchantment UNBREAKABLE = Registry.register(
-            Registries.ENCHANTMENT,
-            new Identifier("mastery3", "unbreakable"),
-            new UnbreakableEnchantment()
-    );
+    public void onInitialize() {}
 }

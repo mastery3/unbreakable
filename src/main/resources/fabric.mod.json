@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Unbreakable",
-  "description": "Keeping your gear forever (as long as you don't die)/",
+  "description": "Keeping your gear forever (as long as you don't die)",
   "authors": [
     "mastery3"
   ],
@@ -22,14 +22,11 @@
       "mastery3.unbreakable.Entry"
     ]
   },
-  "mixins": [
-    "unbreakable.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.20.x",
+    "minecraft": "1.21.x",
     "java": ">=17"
   }
 }
